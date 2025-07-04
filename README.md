@@ -1,6 +1,8 @@
 # TeachZone 🎓
 
 **A modern educational platform where learning meets excellence.**  
+![image](https://github.com/user-attachments/assets/d2f7cdc8-c75f-487e-9382-af31c67c2dc2)
+
 
 ---
 
