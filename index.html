@@ -648,7 +648,20 @@
     <script src = "js/script.js"></script>
 
     
-
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("/service-worker.js").then(
+        (registration) => {
+          console.log("ServiceWorker registration successful:", registration);
+        },
+        (err) => {
+          console.log("ServiceWorker registration failed:", err);
+        }
+      );
+    });
+  }
+</script>
 
 
 </body>
